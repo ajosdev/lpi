@@ -130,6 +130,8 @@ A divulgação de informações, também conhecida como vazamento de informaçõ
 
 [[!] Acesse o laboratório](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-excessive-trust-in-client-side-controls)
 
+[![Watch the video](https://img.youtube.com/vi/Vlyx_GpL3Sg/0.jpg)](https://youtu.be/Vlyx_GpL3Sg)
+
 ### Business logic vulnerabilities
 
 Vulnerabilidades de lógica de negócios são falhas no design e na implementação de um aplicativo que permitem que um invasor elicie um comportamento indesejado. Isso potencialmente permite que os invasores manipulem funcionalidades legítimas para atingir um objetivo malicioso. Essas falhas são geralmente o resultado da falha em antecipar os estados incomuns do aplicativo que podem ocorrer e, conseqüentemente, da falha em lidar com eles com segurança.
@@ -141,6 +143,7 @@ Vulnerabilidades de lógica de negócios são falhas no design e na implementaç
 [[!] Acesse o laboratório](https://portswigger.net/web-security/information-disclosure/exploiting/lab-infoleak-in-error-messages)
 
 Solução
+
 [![Watch the video](https://img.youtube.com/vi/Nmlo5qj-G3g/0.jpg)](https://youtu.be/Nmlo5qj-G3g)
 
 
@@ -155,4 +158,5 @@ Cross-site scripting (também conhecido como XSS) é uma vulnerabilidade de segu
 [[!] Acesse o laboratório](https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded)
 
 Solução
+
 [![Watch the video](https://img.youtube.com/vi/iOm_gsdVHpU/0.jpg)](https://youtu.be/iOm_gsdVHpU)
