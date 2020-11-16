@@ -128,7 +128,9 @@ A divulgação de informações, também conhecida como vazamento de informaçõ
 
 [Leia mais](https://portswigger.net/web-security/information-disclosure)
 
-[!] Acesse o laboratório [<img src="https://image.flaticon.com/icons/png/512/747/747131.png" width="50" height="50">](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-excessive-trust-in-client-side-controls)
+[!] Acesse o laboratório
+
+[<img src="https://image.flaticon.com/icons/png/512/747/747131.png" width="50" height="50">](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-excessive-trust-in-client-side-controls)
 
 Solução
 
