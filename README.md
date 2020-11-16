@@ -130,6 +130,8 @@ A divulgação de informações, também conhecida como vazamento de informaçõ
 
 [[!] Acesse o laboratório](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-excessive-trust-in-client-side-controls)
 
+Solução
+
 [![Watch the video](https://img.youtube.com/vi/Vlyx_GpL3Sg/0.jpg)](https://youtu.be/Vlyx_GpL3Sg)
 
 ### Business logic vulnerabilities
