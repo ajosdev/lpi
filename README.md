@@ -128,6 +128,10 @@ A divulgação de informações, também conhecida como vazamento de informaçõ
 
 [Leia mais](https://portswigger.net/web-security/information-disclosure)
 
+[[!] Acesse o laboratório]
+![GitHub Logo](https://image.winudf.com/v2/image/Y29tLnZhbGVqby5mb3JldmVyX2ljb25fMTUwNDY5NzE0NF8wNDM/icon.png?w=170&fakeurl=1)
+Format: ![Alt Text](url)
+
 [[!] Acesse o laboratório](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-excessive-trust-in-client-side-controls)
 
 Solução
