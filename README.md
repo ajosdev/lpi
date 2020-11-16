@@ -102,7 +102,7 @@ Servidor web é um software responsável por aceitar pedidos em HTTP de clientes
 ![Apache](apache.png)
 
 
-## Aprendendo novas tecnologias
+## Aprendendo tecnologias auxiliares
 
 ### Cursos gratuitos
 
