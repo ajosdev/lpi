@@ -128,7 +128,7 @@ A divulgação de informações, também conhecida como vazamento de informaçõ
 
 [Leia mais](https://portswigger.net/web-security/information-disclosure)
 
-[!] Acesse o laboratório
+[ ! ] Acesse o laboratório
 
 [<img src="https://image.flaticon.com/icons/png/512/747/747131.png" width="50" height="50">](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-excessive-trust-in-client-side-controls)
 
@@ -144,7 +144,7 @@ Vulnerabilidades de lógica de negócios são falhas no design e na implementaç
 
 [Leia mais](https://portswigger.net/web-security/logic-flaws)
 
-[!] Acesse o laboratório
+[ ! ] Acesse o laboratório
 
 [<img src="https://image.flaticon.com/icons/png/512/747/747131.png" width="50" height="50">](https://portswigger.net/web-security/information-disclosure/exploiting/lab-infoleak-in-error-messages)
 
@@ -161,7 +161,7 @@ Cross-site scripting (também conhecido como XSS) é uma vulnerabilidade de segu
 
 [Leia mais](https://portswigger.net/web-security/cross-site-scripting)
 
-[!] Acesse o laboratório
+[ ! ] Acesse o laboratório
 
 [<img src="https://image.flaticon.com/icons/png/512/747/747131.png" width="50" height="50">](https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded)
 
