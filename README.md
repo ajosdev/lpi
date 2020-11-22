@@ -1,6 +1,9 @@
-# LDO CyberSecurity
+# CyberSecurity
 
-## Modelo OSI
+## Roadmap
+![OSI model image](mind.jpg)
+
+## OSI
 O modelo OSI fornece um padrão para que diferentes sistemas de computadores possam se comunicar e pode ser visto como uma linguagem universal para redes de computadores. É baseado no conceito de dividir um sistema de comunicação em sete camadas abstratas, empilhadas umas sobre as outras. 
 
 ![OSI model image](osi.jpg)
@@ -73,6 +76,24 @@ World Wide Web, o famoso WWW, é um sistema de documentos dispostos na Internet 
 
 HTTP é um protocolo de transferência que possibilita que as pessoas que inserem a URL do seu site na Web possam ver os conteúdos e dados que nele existem. A sigla vem do inglês Hypertext Transfer Protocol.
 
+### Exemplo de requisição GET
+
+    GET /hello.htm HTTP/1.1
+    User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+    Host: www.tutorialspoint.com
+    Accept-Language: en-us
+    Accept-Encoding: gzip, deflate
+    Connection: Keep-Alive
+
+### Exemplo de requisição POST
+
+    POST / HTTP/1.1
+    Host: foo.com
+    Content-Type: application/x-www-form-urlencoded
+    Content-Length: 13
+
+    say=Hi&to=Mom
+
 ![DNS](http_to_https-1.jpg)
 
 [[!] Sujestão de leitura](https://www.alura.com.br/artigos/qual-e-diferenca-entre-http-e-https)
@@ -102,7 +123,7 @@ Servidor web é um software responsável por aceitar pedidos em HTTP de clientes
 ![Apache](apache.png)
 
 
-## Aprendendo tecnologias auxiliares
+## Aprendendo novas tecnologias
 
 ### Cursos gratuitos
 
@@ -116,6 +137,22 @@ Python => https://www.youtube.com/watch?v=j94IGZmwtYI&list=PLesCEcYj003QxPQ4vTXk
 
 ## Vulnerabilidades
 
+### Como se informar sobre vulnerabilidades já descobertas por pesquisadores ?
+
+### O que é CVE ?
+
+O CVE, sigla inglesa para Vulnerabilidades e Exposições Comuns, é uma lista pública de falhas de segurança. Quando alguém menciona um CVE, geralmente está se referindo ao número de identificação (ID) atribuído a uma falha de segurança.
+
+[Leia mais](https://www.redhat.com/pt-br/topics/security/what-is-cve)
+
+### O que é exploit ?
+
+Um exploit é um pedaço de software, um pedaço de dados ou uma sequência de comandos que tomam vantagem de um defeito, falha ou vulnerabilidade a fim de causar um comportamento acidental ou imprevisto a ocorrer no software ou hardware de um computador ou em algum eletrônico.
+
+[Exploit Database](https://www.exploit-db.com/)
+
+# Algumas falhas comuns
+
 ### Information disclosure
 
 A divulgação de informações, também conhecida como vazamento de informações, ocorre quando um site da Web revela, sem querer, informações confidenciais a seus usuários. Dependendo do contexto, os sites podem vazar todos os tipos de informações para um invasor potencial, incluindo:
@@ -128,13 +165,7 @@ A divulgação de informações, também conhecida como vazamento de informaçõ
 
 [Leia mais](https://portswigger.net/web-security/information-disclosure)
 
-[ ! ] Acesse o laboratório
-
-[<img src="https://image.flaticon.com/icons/png/512/747/747131.png" width="50" height="50">](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-excessive-trust-in-client-side-controls)
-
-Solução
-
-[![Watch the video](https://img.youtube.com/vi/Vlyx_GpL3Sg/0.jpg)](https://youtu.be/Vlyx_GpL3Sg)
+[[!] Acesse o laboratório](https://portswigger.net/web-security/logic-flaws/examples/lab-logic-flaws-excessive-trust-in-client-side-controls)
 
 ### Business logic vulnerabilities
 
@@ -144,12 +175,9 @@ Vulnerabilidades de lógica de negócios são falhas no design e na implementaç
 
 [Leia mais](https://portswigger.net/web-security/logic-flaws)
 
-[ ! ] Acesse o laboratório
-
-[<img src="https://image.flaticon.com/icons/png/512/747/747131.png" width="50" height="50">](https://portswigger.net/web-security/information-disclosure/exploiting/lab-infoleak-in-error-messages)
+[[!] Acesse o laboratório](https://portswigger.net/web-security/information-disclosure/exploiting/lab-infoleak-in-error-messages)
 
 Solução
-
 [![Watch the video](https://img.youtube.com/vi/Nmlo5qj-G3g/0.jpg)](https://youtu.be/Nmlo5qj-G3g)
 
 
@@ -161,10 +189,20 @@ Cross-site scripting (também conhecido como XSS) é uma vulnerabilidade de segu
 
 [Leia mais](https://portswigger.net/web-security/cross-site-scripting)
 
-[ ! ] Acesse o laboratório
-
-[<img src="https://image.flaticon.com/icons/png/512/747/747131.png" width="50" height="50">](https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded)
+[[!] Acesse o laboratório](https://portswigger.net/web-security/cross-site-scripting/reflected/lab-html-context-nothing-encoded)
 
 Solução
-
 [![Watch the video](https://img.youtube.com/vi/iOm_gsdVHpU/0.jpg)](https://youtu.be/iOm_gsdVHpU)
+
+### SQL injection
+
+A injeção de SQL é uma vulnerabilidade de segurança da web que permite que um invasor interfira nas consultas que um aplicativo faz ao seu banco de dados. Geralmente, permite que um invasor visualize dados que normalmente não é capaz de recuperar. Isso pode incluir dados pertencentes a outros usuários ou quaisquer outros dados que o próprio aplicativo é capaz de acessar. Em muitos casos, um invasor pode modificar ou excluir esses dados, causando alterações persistentes no conteúdo ou comportamento do aplicativo.
+
+![xss](sql-injection.svg)
+
+[Leia mais](https://portswigger.net/web-security/sql-injection)
+
+[[!] Acesse o laboratório](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data)
+
+Solução
+[![Watch the video](https://img.youtube.com/vi/GxYsM3X5u0I/0.jpg)](https://youtu.be/GxYsM3X5u0I)
