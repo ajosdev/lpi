@@ -76,6 +76,17 @@ World Wide Web, o famoso WWW, é um sistema de documentos dispostos na Internet 
 
 HTTP é um protocolo de transferência que possibilita que as pessoas que inserem a URL do seu site na Web possam ver os conteúdos e dados que nele existem. A sigla vem do inglês Hypertext Transfer Protocol.
 
+![DNS](http_to_https-1.jpg)
+
+[[!] Sujestão de leitura](https://www.alura.com.br/artigos/qual-e-diferenca-entre-http-e-https)
+
+[Ler mais](https://canaltech.com.br/internet/o-que-e-dns/)
+ou
+[Assistir um video](https://youtu.be/oukRwnVAamo?list=PLucm8g_ezqNpGh95n-OdEk06ity7YYfvU)
+
+
+- GET / POST requests
+
 ### Exemplo de requisição GET
 
     GET /hello.htm HTTP/1.1
@@ -93,14 +104,6 @@ HTTP é um protocolo de transferência que possibilita que as pessoas que insere
     Content-Length: 13
 
     say=Hi&to=Mom
-
-![DNS](http_to_https-1.jpg)
-
-[[!] Sujestão de leitura](https://www.alura.com.br/artigos/qual-e-diferenca-entre-http-e-https)
-
-[Ler mais](https://canaltech.com.br/internet/o-que-e-dns/)
-ou
-[Assistir um video](https://youtu.be/oukRwnVAamo?list=PLucm8g_ezqNpGh95n-OdEk06ity7YYfvU)
 
 - Correio eletrônico
 
