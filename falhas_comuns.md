@@ -1,4 +1,4 @@
-# Algumas falhas comuns
+# Falhas comuns
 
 ### Information disclosure
 
